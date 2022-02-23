@@ -60,7 +60,7 @@ Type in `pip install -r requirements.txt`. This tells python to install everythi
 
 4. **Clone the repository**
 
-Type in `git clone https://github.com/kgarchie/party-pol.git` to clone this repository.
+Type in `git clone https://github.com/kgarchie/party-pol.git .` to clone this repository. <u>Don't forget the dot at the end. It tells git to store the files in this current folder instead of creating another folder for them in here.</u>
 
 5. **Make migrations**
 
