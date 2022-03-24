@@ -16,7 +16,7 @@ Or simply right clicking (on windows 11) and selecting Open in Terminal
 
 PS if this doesn't work for you find a way to `cd` into it from the root folder of the CMD program.
 
-Yiou can: 
+You can: 
   1. Search for CMD on the windwos search on the start menu and run it. By default it usually is pointed to your home directory like so
 
 ![Terminal Image Snip](https://github.com/kgarchie/Valentines/blob/main/static/media/Screenshot%202022-02-14%20073153.png "PSH image")
@@ -46,7 +46,7 @@ The second venv parameter can be replaced with anything eg `python -m venv maryv
 
 2. **Activate your virtual environment**
 
-Type in `venv/Scripts/activate` PS: It is case sensitive and venv is the name of your virtual environment aka venv if you used another name like `myvenv` or `virtvenv` or `maryvenv` etc it'll be eg `maryvenv/Scripts/activate`
+Type in `source/bin activate` PS: It is case sensitive and venv is the name of your virtual environment aka venv if you used another name like `myvenv` or `virtvenv` or `maryvenv` etc it'll be eg `maryvenv/Scripts/activate`
 
 You may get an error -- something to do with `running scripts is not allowed on this system`. Don't worry, it's just a security mechanism to prevent unsigned scripts from running. We can solve it by opening another CMD window as administrator. On the windows search results, just right click it and select run as administrator.
 
