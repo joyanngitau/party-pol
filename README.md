@@ -46,7 +46,7 @@ The second venv parameter can be replaced with anything eg `python -m venv maryv
 
 2. **Activate your virtual environment**
 
-Type in `source/bin activate` PS: It is case sensitive and venv is the name of your virtual environment aka venv if you used another name like `myvenv` or `virtvenv` or `maryvenv` etc it'll be eg `maryvenv/Scripts/activate`
+Type in `source venv/bin/activate` PS: It is case sensitive and venv is the name of your virtual environment aka venv if you used another name like `myvenv` or `virtvenv` or `maryvenv` etc it'll be eg `maryvenv/Scripts/activate`
 
 You may get an error -- something to do with `running scripts is not allowed on this system`. Don't worry, it's just a security mechanism to prevent unsigned scripts from running. We can solve it by opening another CMD window as administrator. On the windows search results, just right click it and select run as administrator.
 
